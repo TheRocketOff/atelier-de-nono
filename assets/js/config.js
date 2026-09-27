@@ -50,7 +50,7 @@ window.NONO_CONFIG = {
   // --- Formulaire de commande --------------------------------------------
   // URL de l'API qui traite les demandes de devis (backend déployé sur Render).
   // Pour retester en local, remplacez temporairement par http://localhost:4000/api/commande
-  orderApiUrl: "https://atelier-de-nono.onrender.com/api/commande",
+  orderApiUrl: "https://atelier-de-nono-v7uo.onrender.com/api/commande",
 
   // --- SEO local (À REMPLACER) --------------------------------------------
   seo: {
