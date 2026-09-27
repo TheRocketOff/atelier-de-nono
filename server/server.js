@@ -10,6 +10,12 @@ const commandeRouter = require("./routes/commande");
 const app = express();
 const PORT = process.env.PORT || 4000;
 
+// Nécessaire derrière un proxy/load-balancer (Render, Railway, Heroku, etc.)
+// pour que express-rate-limit lise correctement l'IP réelle via X-Forwarded-For.
+// Sans ce réglage, express-rate-limit lève une erreur de validation qui peut
+// bloquer la requête indéfiniment au lieu de répondre.
+app.set("trust proxy", 1);
+
 // --- Sécurité de base ---
 app.use(helmet());
 app.disable("x-powered-by");
