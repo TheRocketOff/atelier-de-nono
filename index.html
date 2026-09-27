@@ -517,13 +517,16 @@
           </div>
           <h3>Instagram</h3>
           <p>Nos plus belles créations en photo, jour après jour.</p>
-          <div class="social-embed">
+          <div class="social-embed social-embed--instagram">
             <!--
-              Intégration Instagram réelle : embed.js officiel (nécessite l'URL
-              d'une publication précise) ou API Graph pour afficher le flux —
-              voir README.md, section "Réseaux sociaux".
+              Widget officiel Instagram (embed.js) — affiche une publication précise.
+              Pour la mettre à jour : ouvrez la publication dans l'app Instagram →
+              ••• → Copier le lien, puis remplacez l'URL ci-dessous (2 endroits :
+              data-instgrm-permalink et le href du lien).
             -->
-            <div class="social-placeholder">📷 Emplacement de la dernière publication Instagram — à connecter (voir README).</div>
+            <blockquote class="instagram-media" data-instgrm-permalink="https://www.instagram.com/p/DdRUejsqKf7/" data-instgrm-version="14" style="margin:0;width:100%;">
+              <a href="https://www.instagram.com/p/DdRUejsqKf7/" target="_blank" rel="noopener">Voir cette publication sur Instagram</a>
+            </blockquote>
           </div>
           <a href="https://www.instagram.com/latelier_de__nono/" target="_blank" rel="noopener" class="btn btn-outline btn-block" data-social="instagram">Voir toutes les créations</a>
         </div>
@@ -749,5 +752,6 @@
 
 <script src="assets/js/config.js"></script>
 <script src="assets/js/main.js"></script>
+<script async src="//www.instagram.com/embed.js"></script>
 </body>
 </html>
