@@ -41,7 +41,7 @@ window.NONO_CONFIG = {
 
   // --- Réseaux sociaux ------------------------------------------------------
   social: {
-    instagram: "https://www.instagram.com/latelier_de__nono?stkn=MW91djZzbDNxb2J4cQ%3D%3D",
+    instagram: "https://www.instagram.com/latelier_de__nono/",
     facebook: "https://www.facebook.com/profile.php?id=61594515713891&locale=fr_FR",
     tiktok: null, // pas encore de compte TikTok — la carte affiche "Prochainement"
   },
