@@ -1,0 +1,774 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+
+<!-- ============================================================
+     SEO — à adapter avec la ville / zone réelle (voir assets/js/config.js
+     pour les coordonnées et README.md pour le guide de personnalisation)
+============================================================ -->
+<title>L'atelier de Nono — Pâtisserie artisanale à Vesoul (70)</title>
+<meta name="description" content="L'atelier de Nono, pâtisserie artisanale à Vesoul (Haute-Saône) : gâteaux personnalisés, entremets, cupcakes et créations gourmandes sur-mesure pour vos événements. Demandez votre devis en ligne.">
+<link rel="canonical" href="https://www.latelierdenono.fr/">
+<meta name="robots" content="index, follow">
+
+<!-- Open Graph -->
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="L'atelier de Nono">
+<meta property="og:title" content="L'atelier de Nono — Pâtisserie artisanale à Vesoul">
+<meta property="og:description" content="Des créations pâtissières faites avec passion à Vesoul (Haute-Saône) : gâteaux personnalisés, entremets, cupcakes et douceurs sur-mesure pour vos plus beaux événements.">
+<meta property="og:image" content="https://www.latelierdenono.fr/assets/images/hero/hero-gateau.jpg">
+<meta property="og:locale" content="fr_FR">
+<meta property="og:url" content="https://www.latelierdenono.fr/">
+
+<!-- Twitter -->
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="L'atelier de Nono — Pâtisserie artisanale à Vesoul">
+<meta name="twitter:description" content="Créations pâtissières artisanales et personnalisées pour tous vos événements, à Vesoul (Haute-Saône).">
+<meta name="twitter:image" content="https://www.latelierdenono.fr/assets/images/hero/hero-gateau.jpg">
+
+<meta name="theme-color" content="#3b2314">
+<link rel="icon" type="image/jpeg" href="assets/logo/logo.jpg">
+<link rel="apple-touch-icon" href="assets/logo/logo.jpg">
+
+<!-- Fonts -->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,600;0,700;1,600&family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+<link rel="stylesheet" href="assets/css/style.css">
+
+<!-- Données structurées locales — CHAMPS À COMPLÉTER (ville, adresse, horaires réels) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Bakery",
+  "name": "L'atelier de Nono",
+  "description": "Pâtisserie artisanale proposant des créations personnalisées : gâteaux, entremets, cupcakes et pâtisseries événementielles.",
+  "image": "https://www.latelierdenono.fr/assets/images/hero/hero-gateau.jpg",
+  "url": "https://www.latelierdenono.fr/",
+  "telephone": "+33665265290",
+  "email": "latelierdenono70@gmail.com",
+  "priceRange": "€€",
+  "address": {
+    "@type": "PostalAddress",
+    "streetAddress": "Rue du Commandant Girardot",
+    "addressLocality": "Vesoul",
+    "postalCode": "70000",
+    "addressRegion": "Bourgogne-Franche-Comté",
+    "addressCountry": "FR"
+  },
+  "areaServed": {
+    "@type": "GeoCircle",
+    "geoMidpoint": { "@type": "GeoCoordinates", "addressCountry": "FR" },
+    "name": "Vesoul et alentours (Haute-Saône)"
+  },
+  "openingHoursSpecification": [
+    { "@type": "OpeningHoursSpecification", "dayOfWeek": ["Tuesday","Wednesday","Thursday","Friday"], "opens": "09:00", "closes": "18:00" },
+    { "@type": "OpeningHoursSpecification", "dayOfWeek": ["Saturday"], "opens": "09:00", "closes": "13:00" }
+  ],
+  "sameAs": [
+    "https://www.instagram.com/latelier_de_nono/",
+    "https://www.facebook.com/profile.php?id=61594515713891&locale=fr_FR"
+  ]
+}
+</script>
+</head>
+<body>
+
+<a class="skip-link" href="#main" style="position:absolute;left:-9999px;">Aller au contenu</a>
+
+<!-- ============================================================
+     HEADER / NAVIGATION
+============================================================ -->
+<header class="site-header" id="siteHeader">
+  <div class="container nav-inner">
+    <a href="#accueil" class="brand" aria-label="L'atelier de Nono — retour à l'accueil">
+      <img src="assets/logo/logo.jpg" alt="Logo L'atelier de Nono" width="52" height="52" onerror="this.onerror=null;this.src='assets/logo/logo.svg'">
+      <span class="brand-text">
+        <strong>L'atelier de Nono</strong>
+        <span>Pâtisserie artisanale</span>
+      </span>
+    </a>
+
+    <nav class="nav-links" id="navLinks" aria-label="Navigation principale">
+      <a href="#accueil">Accueil</a>
+      <a href="#apropos">À propos</a>
+      <a href="#patisseries">Pâtisseries</a>
+      <a href="#galerie">Galerie</a>
+      <a href="#commander">Commander</a>
+      <a href="#contact">Contact</a>
+      <div class="nav-cta">
+        <a href="#commander" class="btn btn-primary">Commander</a>
+      </div>
+    </nav>
+
+    <button class="nav-toggle" id="navToggle" aria-label="Ouvrir le menu" aria-expanded="false" aria-controls="navLinks">
+      <span></span><span></span><span></span>
+    </button>
+  </div>
+</header>
+
+<main id="main">
+
+  <!-- ============================================================
+       1. HERO
+  ============================================================ -->
+  <section class="hero" id="accueil">
+    <div class="container hero-inner">
+      <div class="hero-content reveal">
+        <img src="assets/logo/logo.jpg" alt="L'atelier de Nono" class="hero-logo" onerror="this.onerror=null;this.src='assets/logo/logo.svg'">
+        <div class="eyebrow">Pâtisserie artisanale &amp; sur-mesure</div>
+        <h1>Des créations pâtissières faites avec <em>passion</em></h1>
+        <p class="lead">Des douceurs artisanales et personnalisées pour accompagner vos plus beaux moments.</p>
+        <div class="hero-actions">
+          <a href="#patisseries" class="btn btn-primary">Découvrir les créations</a>
+          <a href="#commander" class="btn btn-outline">Commander</a>
+        </div>
+        <div class="hero-badges">
+          <div class="hero-badge">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M12 21s-7-4.35-9.5-8.5C.5 8.5 3 5 6.5 5c2 0 3.3 1 5.5 3 2.2-2 3.5-3 5.5-3C21 5 23.5 8.5 21.5 12.5 19 16.65 12 21 12 21Z"/></svg>
+            Fait maison
+          </div>
+          <div class="hero-badge">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M4 4h16v4H4zM6 8v12h12V8M9 12h6"/></svg>
+            Créations personnalisées
+          </div>
+          <div class="hero-badge">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><circle cx="12" cy="12" r="9"/><path d="M9 12l2 2 4-4"/></svg>
+            Ingrédients de qualité
+          </div>
+        </div>
+      </div>
+
+      <div class="hero-media reveal">
+        <div class="hero-ring" aria-hidden="true"></div>
+        <div class="hero-media-frame ph-photo" data-icon="🎂" data-label="Photo à ajouter — création signature de L'atelier de Nono">
+          <img src="assets/images/hero/hero-gateau.jpg" alt="Gâteau artisanal personnalisé signé L'atelier de Nono" loading="eager" onerror="this.style.display='none';this.parentElement.classList.add('ph-empty')">
+        </div>
+        <div class="hero-float-card">
+          <span class="icon">
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M12 21s-7-4.35-9.5-8.5C.5 8.5 3 5 6.5 5c2 0 3.3 1 5.5 3 2.2-2 3.5-3 5.5-3C21 5 23.5 8.5 21.5 12.5 19 16.65 12 21 12 21Z"/></svg>
+          </span>
+          <span>
+            <strong>100% artisanal</strong>
+            <span>Chaque création est unique</span>
+          </span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============================================================
+       2. À PROPOS
+  ============================================================ -->
+  <section class="about" id="apropos">
+    <div class="container about-inner">
+      <div class="about-media reveal">
+        <div class="ph-photo" data-icon="👩‍🍳" data-label="Photo à ajouter — la pâtissière / l'atelier">
+          <img src="assets/images/about/atelier-nono.jpg" alt="La pâtissière de L'atelier de Nono dans son atelier" loading="lazy" onerror="this.style.display='none';this.parentElement.classList.add('ph-empty')">
+        </div>
+        <div class="deco-heart" aria-hidden="true">
+          <svg width="26" height="26" viewBox="0 0 24 24" fill="currentColor"><path d="M12 21s-7-4.35-9.5-8.5C.5 8.5 3 5 6.5 5c2 0 3.3 1 5.5 3 2.2-2 3.5-3 5.5-3C21 5 23.5 8.5 21.5 12.5 19 16.65 12 21 12 21Z"/></svg>
+        </div>
+      </div>
+
+      <div class="about-text reveal">
+        <div class="eyebrow">Notre histoire</div>
+        <h2>L'histoire de L'atelier de Nono</h2>
+        <!--
+          TEXTE TEMPORAIRE — à remplacer par l'histoire réelle de la pâtisserie
+          (parcours, déclic, formation, valeurs...). Ne pas laisser en ligne
+          tel quel : ce paragraphe est un exemple de structure, pas un fait.
+        -->
+        <p>
+          Tout est parti d'une passion simple : celle de créer, avec les mains et le cœur,
+          des pâtisseries qui donnent le sourire. <strong>L'atelier de Nono</strong> est né de
+          cette envie de partager un savoir-faire artisanal, fait de patience, de précision
+          et d'amour du travail bien fait.
+        </p>
+        <p>
+          Chaque création est pensée sur-mesure : un gâteau d'anniversaire, une pièce de mariage,
+          des douceurs pour un baptême ou simplement l'envie de se faire plaisir. Ici, pas de
+          produits industriels : uniquement des ingrédients choisis avec soin et un travail
+          entièrement fait main, à chaque étape.
+        </p>
+        <p>
+          <em>[Texte à personnaliser avec votre parcours, votre formation et l'histoire réelle
+          de L'atelier de Nono.]</em>
+        </p>
+
+        <div class="about-values">
+          <div class="about-value">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M12 21s-7-4.35-9.5-8.5C.5 8.5 3 5 6.5 5c2 0 3.3 1 5.5 3 2.2-2 3.5-3 5.5-3C21 5 23.5 8.5 21.5 12.5 19 16.65 12 21 12 21Z"/></svg>
+            <div><strong>Fait avec passion</strong><span>Chaque douceur est réalisée avec soin</span></div>
+          </div>
+          <div class="about-value">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M4 21V9l8-6 8 6v12M9 21v-6h6v6"/></svg>
+            <div><strong>100% artisanal</strong><span>Un savoir-faire fait main</span></div>
+          </div>
+          <div class="about-value">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M12 3v3M12 18v3M4.2 4.2l2.1 2.1M17.7 17.7l2.1 2.1M3 12h3M18 12h3M4.2 19.8l2.1-2.1M17.7 6.3l2.1-2.1"/><circle cx="12" cy="12" r="4"/></svg>
+            <div><strong>Créations personnalisées</strong><span>À l'image de vos envies</span></div>
+          </div>
+          <div class="about-value">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><circle cx="12" cy="12" r="9"/><path d="M9 12l2 2 4-4"/></svg>
+            <div><strong>Qualité avant tout</strong><span>Des ingrédients sélectionnés</span></div>
+          </div>
+        </div>
+
+        <p class="signature">— L'équipe de L'atelier de Nono</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============================================================
+       3. LES PÂTISSERIES
+  ============================================================ -->
+  <section class="pastries" id="patisseries">
+    <div class="container">
+      <div class="section-head reveal">
+        <div class="eyebrow">Nos savoir-faire</div>
+        <h2>Les créations de L'atelier de Nono</h2>
+        <p>Un aperçu de nos univers gourmands — chaque catégorie peut être adaptée à vos envies.</p>
+      </div>
+
+      <!--
+        ⚠️ EXEMPLES DE CATÉGORIES — à remplacer par les créations réellement
+        proposées par L'atelier de Nono (photos, noms, descriptions, prix).
+        Chaque carte est indépendante : dupliquez / supprimez selon vos besoins.
+      -->
+      <div class="pastries-grid">
+
+        <article class="pastry-card reveal">
+          <div class="pastry-media ph-photo" data-icon="🎂" data-label="Exemple — gâteau personnalisé">
+            <span class="pastry-emoji">🎂</span>
+            <img src="assets/images/pastries/gateaux-personnalises.jpg" alt="Gâteaux personnalisés artisanaux" loading="lazy" onerror="this.style.display='none';this.parentElement.classList.add('ph-empty')">
+          </div>
+          <div class="pastry-body">
+            <h3>Gâteaux personnalisés</h3>
+            <p>Anniversaires, mariages, baptêmes... des créations uniques adaptées à votre thème et vos envies.</p>
+            <span class="pastry-price">À partir de 45 € <em>(exemple)</em></span>
+            <a href="#commander" class="btn btn-outline">Demander un devis</a>
+          </div>
+        </article>
+
+        <article class="pastry-card reveal">
+          <div class="pastry-media ph-photo" data-icon="🧁" data-label="Exemple — cupcakes">
+            <span class="pastry-emoji">🧁</span>
+            <img src="assets/images/pastries/cupcakes.jpg" alt="Cupcakes artisanaux faits maison" loading="lazy" onerror="this.style.display='none';this.parentElement.classList.add('ph-empty')">
+          </div>
+          <div class="pastry-body">
+            <h3>Cupcakes</h3>
+            <p>Des bouchées gourmandes et colorées, personnalisables pour tous vos événements.</p>
+            <span class="pastry-price">À partir de 3 € / pièce <em>(exemple)</em></span>
+            <a href="#commander" class="btn btn-outline">Demander un devis</a>
+          </div>
+        </article>
+
+        <article class="pastry-card reveal">
+          <div class="pastry-media ph-photo" data-icon="🍰" data-label="Exemple — entremets">
+            <span class="pastry-emoji">🍰</span>
+            <img src="assets/images/pastries/entremets.jpg" alt="Entremets artisanaux raffinés" loading="lazy" onerror="this.style.display='none';this.parentElement.classList.add('ph-empty')">
+          </div>
+          <div class="pastry-body">
+            <h3>Entremets</h3>
+            <p>Des associations de textures et de saveurs raffinées pour les becs sucrés exigeants.</p>
+            <span class="pastry-price">À partir de 28 € <em>(exemple)</em></span>
+            <a href="#commander" class="btn btn-outline">Demander un devis</a>
+          </div>
+        </article>
+
+        <article class="pastry-card reveal">
+          <div class="pastry-media ph-photo" data-icon="🍪" data-label="Exemple — biscuits">
+            <span class="pastry-emoji">🍪</span>
+            <img src="assets/images/pastries/biscuits.jpg" alt="Biscuits et petites douceurs artisanales" loading="lazy" onerror="this.style.display='none';this.parentElement.classList.add('ph-empty')">
+          </div>
+          <div class="pastry-body">
+            <h3>Biscuits &amp; petites douceurs</h3>
+            <p>Sablés décorés, mendiants, petits gâteaux... pour grignoter ou offrir avec gourmandise.</p>
+            <span class="pastry-price">À partir de 12 € <em>(exemple)</em></span>
+            <a href="#commander" class="btn btn-outline">Demander un devis</a>
+          </div>
+        </article>
+
+        <article class="pastry-card reveal">
+          <div class="pastry-media ph-photo" data-icon="🎉" data-label="Exemple — pâtisseries événementielles">
+            <span class="pastry-emoji">🎉</span>
+            <img src="assets/images/pastries/evenementiel.jpg" alt="Pâtisseries événementielles pour mariages et fêtes" loading="lazy" onerror="this.style.display='none';this.parentElement.classList.add('ph-empty')">
+          </div>
+          <div class="pastry-body">
+            <h3>Pâtisseries événementielles</h3>
+            <p>Buffets sucrés, pièces montées et compositions pour vos réceptions et grands événements.</p>
+            <span class="pastry-price">Sur devis</span>
+            <a href="#commander" class="btn btn-outline">Demander un devis</a>
+          </div>
+        </article>
+
+        <article class="pastry-card reveal">
+          <div class="pastry-media ph-photo" data-icon="🎁" data-label="Exemple — créations personnalisées">
+            <span class="pastry-emoji">🎁</span>
+            <img src="assets/images/pastries/creations-personnalisees.jpg" alt="Créations gourmandes personnalisées sur-mesure" loading="lazy" onerror="this.style.display='none';this.parentElement.classList.add('ph-empty')">
+          </div>
+          <div class="pastry-body">
+            <h3>Créations gourmandes personnalisées</h3>
+            <p>Une idée précise en tête ? Décrivez-nous votre projet, nous lui donnons vie.</p>
+            <span class="pastry-price">Sur devis</span>
+            <a href="#commander" class="btn btn-outline">Demander un devis</a>
+          </div>
+        </article>
+
+      </div>
+
+      <p class="pastries-note">Photos, noms, descriptions et tarifs sont des exemples de structure — à remplacer par les créations réellement proposées par L'atelier de Nono.</p>
+    </div>
+  </section>
+
+  <!-- ============================================================
+       4. GALERIE PHOTO
+  ============================================================ -->
+  <section class="gallery" id="galerie">
+    <div class="container">
+      <div class="section-head reveal">
+        <div class="eyebrow">En images</div>
+        <h2>La galerie de nos créations</h2>
+        <p>Chaque création est réalisée avec soin et peut être adaptée à vos envies.</p>
+      </div>
+
+      <div class="gallery-filters reveal" role="group" aria-label="Filtrer la galerie">
+        <button class="filter-btn is-active" data-filter="tout">Tout</button>
+        <button class="filter-btn" data-filter="gateaux">Gâteaux</button>
+        <button class="filter-btn" data-filter="entremets">Entremets</button>
+        <button class="filter-btn" data-filter="cupcakes">Cupcakes</button>
+        <button class="filter-btn" data-filter="evenements">Événements</button>
+        <button class="filter-btn" data-filter="personnalises">Personnalisés</button>
+      </div>
+
+      <div class="masonry reveal" id="masonryGrid">
+        <div class="masonry-item" data-category="personnalises"><div class="ph-photo" data-icon="🎂" data-label="Photo à ajouter"><img src="assets/images/gallery/24ans.jpg" alt="Gâteau lettres personnalisé pour un 24e anniversaire — L'atelier de Nono" loading="lazy" onerror="this.style.display='none';this.parentElement.classList.add('ph-empty')"></div><span class="overlay">Gâteau lettres « 24 ans »</span></div>
+        <div class="masonry-item tall" data-category="entremets"><div class="ph-photo" data-icon="🍰" data-label="Photo à ajouter"><img src="assets/images/gallery/fraisier.jpg" alt="Entremets glaçage fruits rouges et framboises — L'atelier de Nono" loading="lazy" onerror="this.style.display='none';this.parentElement.classList.add('ph-empty')"></div><span class="overlay">Entremets fruits rouges</span></div>
+        <div class="masonry-item short" data-category="personnalises"><div class="ph-photo" data-icon="🎁" data-label="Photo à ajouter"><img src="assets/images/gallery/gateauL.jpg" alt="Gâteau lettre L fleuri et macarons — L'atelier de Nono" loading="lazy" onerror="this.style.display='none';this.parentElement.classList.add('ph-empty')"></div><span class="overlay">Gâteau lettre « L », fleurs &amp; macarons</span></div>
+        <div class="masonry-item tall" data-category="evenements"><div class="ph-photo" data-icon="🎉" data-label="Photo à ajouter"><img src="assets/images/gallery/gateauM.jpg" alt="Gâteau lettre M thème football — L'atelier de Nono" loading="lazy" onerror="this.style.display='none';this.parentElement.classList.add('ph-empty')"></div><span class="overlay">Gâteau lettre « M », thème football</span></div>
+        <div class="masonry-item" data-category="evenements"><div class="ph-photo" data-icon="🎉" data-label="Photo à ajouter"><img src="assets/images/gallery/gateau_glacons.jpg" alt="Création gourmande tonneau à biscuits pour un anniversaire — L'atelier de Nono" loading="lazy" onerror="this.style.display='none';this.parentElement.classList.add('ph-empty')"></div><span class="overlay">Création « tonneau » gourmand</span></div>
+        <div class="masonry-item short" data-category="gateaux"><div class="ph-photo" data-icon="🎂" data-label="Photo à ajouter"><img src="assets/images/gallery/millefeuillejules.jpg" alt="Gâteau personnalisé au nom de Jules — L'atelier de Nono" loading="lazy" onerror="this.style.display='none';this.parentElement.classList.add('ph-empty')"></div><span class="overlay">Gâteau personnalisé « Jules »</span></div>
+        <div class="masonry-item tall" data-category="personnalises"><div class="ph-photo" data-icon="🎁" data-label="Photo à ajouter"><img src="assets/images/gallery/stitch.jpg" alt="Gâteau Stitch personnalisé au prénom Lisa — L'atelier de Nono" loading="lazy" onerror="this.style.display='none';this.parentElement.classList.add('ph-empty')"></div><span class="overlay">Gâteau « Stitch » personnalisé</span></div>
+      </div>
+
+      <p class="gallery-empty" id="galleryEmpty" hidden>Aucune photo dans cette catégorie pour le moment — revenez bientôt, la galerie s'agrandit régulièrement !</p>
+
+      <p class="gallery-note reveal">Chaque création est réalisée avec soin et peut être adaptée à vos envies.</p>
+    </div>
+  </section>
+
+  <!-- Lightbox -->
+  <div class="lightbox" id="lightbox" role="dialog" aria-modal="true" aria-label="Visionneuse de photo">
+    <button class="lightbox-close" id="lightboxClose" aria-label="Fermer">✕</button>
+    <button class="lightbox-prev" id="lightboxPrev" aria-label="Photo précédente">‹</button>
+    <img id="lightboxImg" src="" alt="">
+    <button class="lightbox-next" id="lightboxNext" aria-label="Photo suivante">›</button>
+    <div class="lightbox-caption" id="lightboxCaption"></div>
+  </div>
+
+  <!-- ============================================================
+       5. COMMANDER — FORMULAIRE DE DEVIS
+  ============================================================ -->
+  <section class="order-section" id="commander">
+    <div class="container order-inner">
+      <div class="order-intro reveal">
+        <div class="eyebrow">Votre projet gourmand</div>
+        <h2>Parlons de votre création</h2>
+        <p>Vous avez une envie particulière ? Décrivez-nous votre projet et nous vous répondrons avec une proposition adaptée.</p>
+
+        <div class="order-steps">
+          <div class="order-step">
+            <span class="num">1</span>
+            <div><strong>Vous décrivez votre projet</strong><span>Type de création, date, thème, inspirations...</span></div>
+          </div>
+          <div class="order-step">
+            <span class="num">2</span>
+            <div><strong>Nous étudions votre demande</strong><span>Selon la disponibilité et la faisabilité</span></div>
+          </div>
+          <div class="order-step">
+            <span class="num">3</span>
+            <div><strong>Nous revenons vers vous</strong><span>Avec une proposition et un devis personnalisé</span></div>
+          </div>
+        </div>
+
+        <div class="info-box">
+          <h3>ℹ️ À savoir</h3>
+          <ul>
+            <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><circle cx="12" cy="12" r="9"/><path d="M12 8v5l3 2"/></svg> Les commandes sont soumises à disponibilité.</li>
+            <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><circle cx="12" cy="12" r="9"/><path d="M9 12l2 2 4-4"/></svg> Une demande ne constitue pas automatiquement une confirmation de commande.</li>
+            <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M12 3v18M8 7c0-2 2-3 4-3s4 1 4 3-2 3-4 3-4 1-4 3 2 3 4 3 4-1 4-3"/></svg> Le prix peut varier selon la création demandée.</li>
+            <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><rect x="3" y="5" width="18" height="16" rx="2"/><path d="M3 10h18M8 3v4M16 3v4"/></svg> La date doit être validée par L'atelier de Nono avant confirmation.</li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="order-form-card reveal">
+        <form id="orderForm" novalidate autocomplete="off">
+          <!-- Honeypot anti-spam (invisible pour les humains) -->
+          <div class="hp-field" aria-hidden="true">
+            <label for="website">Ne pas remplir ce champ</label>
+            <input type="text" id="website" name="website" tabindex="-1" autocomplete="off">
+          </div>
+          <input type="hidden" id="formLoadedAt" name="formLoadedAt" value="">
+
+          <div class="form-grid">
+            <div class="field">
+              <label for="prenom">Prénom *</label>
+              <input type="text" id="prenom" name="prenom" required maxlength="80">
+            </div>
+            <div class="field">
+              <label for="nom">Nom *</label>
+              <input type="text" id="nom" name="nom" required maxlength="80">
+            </div>
+            <div class="field">
+              <label for="telephone">Téléphone *</label>
+              <input type="tel" id="telephone" name="telephone" required maxlength="20" placeholder="06 12 34 56 78">
+            </div>
+            <div class="field">
+              <label for="email">E-mail *</label>
+              <input type="email" id="email" name="email" required maxlength="120">
+            </div>
+          </div>
+
+          <div class="form-grid cols-3">
+            <div class="field full" style="grid-column: span 1;">
+              <label for="typeCreation">Type de création *</label>
+              <select id="typeCreation" name="typeCreation" required>
+                <option value="" disabled selected>Choisir...</option>
+                <option value="Gâteau">Gâteau</option>
+                <option value="Entremets">Entremets</option>
+                <option value="Cupcakes">Cupcakes</option>
+                <option value="Biscuits">Biscuits</option>
+                <option value="Création personnalisée">Création personnalisée</option>
+                <option value="Événement">Événement</option>
+                <option value="Autre">Autre</option>
+              </select>
+            </div>
+            <div class="field">
+              <label for="dateSouhaitee">Date souhaitée</label>
+              <input type="date" id="dateSouhaitee" name="dateSouhaitee">
+            </div>
+            <div class="field">
+              <label for="nbPersonnes">Nombre de personnes</label>
+              <input type="number" id="nbPersonnes" name="nbPersonnes" min="1" max="500" placeholder="Ex : 20">
+            </div>
+          </div>
+
+          <div class="form-grid">
+            <div class="field">
+              <label for="budget">Budget approximatif <span class="optional">(optionnel)</span></label>
+              <input type="text" id="budget" name="budget" placeholder="Ex : 80 – 120 €">
+            </div>
+            <div class="field">
+              <label for="theme">Thème / Couleurs <span class="optional">(optionnel)</span></label>
+              <input type="text" id="theme" name="theme" placeholder="Ex : Pastel, fleurs, licorne...">
+            </div>
+          </div>
+
+          <div class="field full">
+            <label for="description">Description du projet *</label>
+            <textarea id="description" name="description" required maxlength="2000" placeholder="Décrivez votre projet : occasion, nombre de parts, saveurs souhaitées..."></textarea>
+          </div>
+
+          <div class="field full">
+            <label for="inspiration">Avez-vous une inspiration particulière ? <span class="optional">(optionnel)</span></label>
+            <textarea id="inspiration" name="inspiration" maxlength="500" placeholder="Ex : « J'aimerais quelque chose dans cet esprit... »"></textarea>
+          </div>
+
+          <div class="field full">
+            <label>Photos d'inspiration <span class="optional">(optionnel, 5 Mo max par image)</span></label>
+            <div class="upload-zone" id="uploadZone" tabindex="0" role="button" aria-describedby="uploadHint">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><path d="M12 16V4M7 9l5-5 5 5"/><path d="M4 16v3a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2v-3"/></svg>
+              <p><strong>Cliquez pour ajouter</strong> ou glissez-déposez vos photos ici</p>
+              <span class="field-hint" id="uploadHint">JPG, PNG ou WEBP — 5 photos maximum</span>
+              <input type="file" id="fileInput" name="photos" accept="image/png, image/jpeg, image/webp" multiple>
+            </div>
+            <div class="upload-previews" id="uploadPreviews"></div>
+          </div>
+
+          <div class="consent-row">
+            <input type="checkbox" id="consent" name="consent" required>
+            <label for="consent">J'accepte que mes informations soient utilisées par L'atelier de Nono pour traiter ma demande, conformément à la <a href="politique-confidentialite.html" target="_blank" rel="noopener">politique de confidentialité</a>. *</label>
+          </div>
+
+          <button type="submit" class="btn btn-primary btn-block" id="submitBtn">Envoyer ma demande</button>
+
+          <div class="form-feedback" id="formFeedback" role="status" aria-live="polite"></div>
+        </form>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============================================================
+       6. RÉSEAUX SOCIAUX
+  ============================================================ -->
+  <section class="social" id="reseaux">
+    <div class="container">
+      <div class="section-head reveal">
+        <div class="eyebrow">Suivez le fil de nos créations</div>
+        <h2>Retrouvez L'atelier de Nono</h2>
+        <p>Nos dernières créations et coulisses d'atelier sont à retrouver sur les réseaux sociaux.</p>
+      </div>
+
+      <div class="social-grid reveal">
+        <div class="social-card">
+          <div class="social-icon instagram">
+            <svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><rect x="3" y="3" width="18" height="18" rx="5"/><circle cx="12" cy="12" r="4"/><circle cx="17.5" cy="6.5" r="1"/></svg>
+          </div>
+          <h3>Instagram</h3>
+          <p>Nos plus belles créations en photo, jour après jour.</p>
+          <div class="social-embed">
+            <!--
+              Intégration Instagram réelle : embed.js officiel (nécessite l'URL
+              d'une publication précise) ou API Graph pour afficher le flux —
+              voir README.md, section "Réseaux sociaux".
+            -->
+            <div class="social-placeholder">📷 Emplacement de la dernière publication Instagram — à connecter (voir README).</div>
+          </div>
+          <a href="https://www.instagram.com/latelier_de_nono/" target="_blank" rel="noopener" class="btn btn-outline btn-block" data-social="instagram">Voir toutes les créations</a>
+        </div>
+
+        <div class="social-card">
+          <div class="social-icon facebook">
+            <svg width="26" height="26" viewBox="0 0 24 24" fill="currentColor"><path d="M13.5 21v-8h2.7l.4-3.2h-3.1V7.7c0-.9.3-1.6 1.7-1.6h1.5V3.2C15.9 3.1 14.9 3 13.7 3c-2.5 0-4.2 1.5-4.2 4.3v2.5H6.8v3.2h2.7v8h4Z"/></svg>
+          </div>
+          <h3>Facebook</h3>
+          <p>Notre actualité, nos événements et les avis de nos clients.</p>
+          <div class="social-embed">
+            <!--
+              Widget officiel Facebook Page Plugin — ne nécessite pas de clé API,
+              juste l'URL publique de la page (à renseigner dans config.js puis ici).
+            -->
+            <iframe
+              src="https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Fwww.facebook.com%2Fprofile.php%3Fid%3D61594515713891%26locale%3Dfr_FR&tabs=timeline&width=280&height=220&small_header=true&adapt_container_width=true&hide_cover=false&show_facepile=false"
+              width="100%" height="220" style="border:none;overflow:hidden" scrolling="no" frameborder="0" loading="lazy"
+              allowfullscreen="true" allow="encrypted-media" title="Page Facebook L'atelier de Nono"></iframe>
+          </div>
+          <a href="https://www.facebook.com/profile.php?id=61594515713891&locale=fr_FR" target="_blank" rel="noopener" class="btn btn-outline btn-block" data-social="facebook">Voir toutes les créations</a>
+        </div>
+
+        <div class="social-card">
+          <div class="social-icon tiktok">
+            <svg width="26" height="26" viewBox="0 0 24 24" fill="currentColor"><path d="M14 3c.3 2 1.8 3.6 4 3.9v2.7c-1.4 0-2.8-.4-4-1.2v6.1a5.5 5.5 0 1 1-5.5-5.5c.3 0 .6 0 .9.1v2.8a2.7 2.7 0 1 0 1.9 2.6V3H14Z"/></svg>
+          </div>
+          <h3>TikTok</h3>
+          <p>Nos coulisses d'atelier et pas-à-pas en vidéo.</p>
+          <div class="social-embed">
+            <!--
+              Intégration TikTok réelle : embed officiel via blockquote
+              class="tiktok-embed" + script embed.tiktok.com (nécessite l'URL
+              d'une vidéo précise) — voir README.md.
+            -->
+            <div class="social-placeholder">🎬 Emplacement de la dernière vidéo TikTok — à connecter (voir README).</div>
+          </div>
+          <a href="https://www.tiktok.com/@latelierdenono" target="_blank" rel="noopener" class="btn btn-outline btn-block" data-social="tiktok">Voir toutes les créations</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============================================================
+       7. AVIS CLIENTS
+  ============================================================ -->
+  <section class="testimonials" id="avis">
+    <div class="container">
+      <div class="section-head reveal">
+        <div class="eyebrow">Vos petits mots</div>
+        <h2>Ce que disent nos clients</h2>
+        <p>Les avis ci-dessous sont des exemples de mise en page, en attendant vos premiers vrais retours clients.</p>
+      </div>
+
+      <!-- ⚠️ AVIS PLACEHOLDER — à remplacer par de vrais avis clients (ou connecter les avis Google) -->
+      <div class="testimonial-grid reveal">
+        <div class="testimonial-card">
+          <span class="testimonial-placeholder-tag">Exemple</span>
+          <div class="testimonial-stars">★★★★★</div>
+          <p class="quote">« Un gâteau magnifique et délicieux, parfaitement conforme à ce que j'avais imaginé. Un vrai travail d'artiste ! »</p>
+          <div class="testimonial-author">
+            <div class="testimonial-avatar">A.</div>
+            <div><strong>Prénom À.</strong><span>Avis d'exemple</span></div>
+          </div>
+        </div>
+        <div class="testimonial-card">
+          <span class="testimonial-placeholder-tag">Exemple</span>
+          <div class="testimonial-stars">★★★★★</div>
+          <p class="quote">« Réactive, à l'écoute et tellement talentueuse. Nos invités en parlent encore ! »</p>
+          <div class="testimonial-author">
+            <div class="testimonial-avatar">M.</div>
+            <div><strong>Prénom M.</strong><span>Avis d'exemple</span></div>
+          </div>
+        </div>
+        <div class="testimonial-card">
+          <span class="testimonial-placeholder-tag">Exemple</span>
+          <div class="testimonial-stars">★★★★★</div>
+          <p class="quote">« Une pâtisserie fine et un service au top. On recommande les yeux fermés ! »</p>
+          <div class="testimonial-author">
+            <div class="testimonial-avatar">L.</div>
+            <div><strong>Prénom L.</strong><span>Avis d'exemple</span></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============================================================
+       8. CTA
+  ============================================================ -->
+  <section class="cta-section">
+    <div class="container">
+      <div class="cta-banner reveal">
+        <div class="cta-banner-inner">
+          <h2>Une envie gourmande ?</h2>
+          <p>Gâteau d'anniversaire, création personnalisée ou petite douceur pour un événement : parlons de votre projet.</p>
+          <a href="#commander" class="btn btn-light">Demander un devis</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============================================================
+       9. CONTACT
+  ============================================================ -->
+  <section class="contact" id="contact">
+    <div class="container">
+      <div class="section-head reveal">
+        <div class="eyebrow">Une question ?</div>
+        <h2>Contact</h2>
+        <p>Toutes les coordonnées ci-dessous sont à personnaliser dans <code>assets/js/config.js</code>.</p>
+      </div>
+
+      <div class="contact-inner reveal">
+        <div>
+          <div class="contact-card">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M22 16.9v3a2 2 0 0 1-2.2 2 19.8 19.8 0 0 1-8.6-3.1 19.5 19.5 0 0 1-6-6A19.8 19.8 0 0 1 2.1 4.2 2 2 0 0 1 4.1 2h3a2 2 0 0 1 2 1.7c.1.9.3 1.8.6 2.7a2 2 0 0 1-.4 2.1L8.1 9.7a16 16 0 0 0 6 6l1.2-1.2a2 2 0 0 1 2.1-.4c.9.3 1.8.5 2.7.6a2 2 0 0 1 1.9 2.2Z"/></svg>
+            <div>
+              <h3>Téléphone</h3>
+              <a class="phone-link" id="contactPhone" href="tel:+33665265290">06 65 26 52 90</a>
+              <p style="margin-top:8px;"><a href="tel:+33665265290" class="btn btn-outline" id="callBtn" style="padding:9px 18px;font-size:0.82rem;">Appeler L'atelier de Nono</a></p>
+            </div>
+          </div>
+
+          <div class="contact-card">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><rect x="3" y="5" width="18" height="14" rx="2"/><path d="m3 7 9 6 9-6"/></svg>
+            <div>
+              <h3>E-mail</h3>
+              <p><a id="contactEmail" href="mailto:latelierdenono70@gmail.com">latelierdenono70@gmail.com</a></p>
+            </div>
+          </div>
+
+          <div class="contact-card">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M12 21s7-6.5 7-11.5A7 7 0 0 0 5 9.5C5 14.5 12 21 12 21Z"/><circle cx="12" cy="9.5" r="2.5"/></svg>
+            <div>
+              <h3>Zone</h3>
+              <p id="contactAddress">Adresse à préciser — Ville à préciser</p>
+              <p id="contactDelivery" style="font-size:0.85rem;">Zone de livraison à préciser</p>
+              <p id="contactPickup" style="font-size:0.85rem;">Retrait des commandes à préciser</p>
+            </div>
+          </div>
+
+          <div class="contact-card">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3.5 2"/></svg>
+            <div>
+              <h3>Horaires</h3>
+              <div class="contact-hours-list" id="contactHours"></div>
+            </div>
+          </div>
+        </div>
+
+        <div class="contact-map">
+          <!-- Remplacez l'adresse dans l'URL ci-dessous par la vraie adresse de l'atelier -->
+          <iframe
+            src="https://www.google.com/maps?q=France&output=embed"
+            loading="lazy" title="Localisation de L'atelier de Nono" allowfullscreen></iframe>
+        </div>
+      </div>
+    </div>
+  </section>
+
+</main>
+
+<!-- ============================================================
+     FOOTER
+============================================================ -->
+<footer class="site-footer">
+  <div class="container">
+    <div class="footer-top">
+      <div>
+        <div class="footer-brand">
+          <img src="assets/logo/logo.jpg" alt="Logo L'atelier de Nono" onerror="this.onerror=null;this.src='assets/logo/logo.svg'">
+          <strong>L'atelier de Nono</strong>
+        </div>
+        <p>Pâtisserie artisanale &amp; créations personnalisées pour tous vos événements.</p>
+        <div class="footer-social">
+          <a href="https://www.instagram.com/latelier_de_nono/" target="_blank" rel="noopener" aria-label="Instagram" data-social="instagram"><svg width="17" height="17" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><rect x="3" y="3" width="18" height="18" rx="5"/><circle cx="12" cy="12" r="4"/></svg></a>
+          <a href="https://www.facebook.com/profile.php?id=61594515713891&locale=fr_FR" target="_blank" rel="noopener" aria-label="Facebook" data-social="facebook"><svg width="17" height="17" viewBox="0 0 24 24" fill="currentColor"><path d="M13.5 21v-8h2.7l.4-3.2h-3.1V7.7c0-.9.3-1.6 1.7-1.6h1.5V3.2C15.9 3.1 14.9 3 13.7 3c-2.5 0-4.2 1.5-4.2 4.3v2.5H6.8v3.2h2.7v8h4Z"/></svg></a>
+          <a href="https://www.tiktok.com/@latelierdenono" target="_blank" rel="noopener" aria-label="TikTok" data-social="tiktok"><svg width="17" height="17" viewBox="0 0 24 24" fill="currentColor"><path d="M14 3c.3 2 1.8 3.6 4 3.9v2.7c-1.4 0-2.8-.4-4-1.2v6.1a5.5 5.5 0 1 1-5.5-5.5c.3 0 .6 0 .9.1v2.8a2.7 2.7 0 1 0 1.9 2.6V3H14Z"/></svg></a>
+        </div>
+      </div>
+
+      <div class="footer-col">
+        <h4>Navigation</h4>
+        <ul>
+          <li><a href="#accueil">Accueil</a></li>
+          <li><a href="#apropos">À propos</a></li>
+          <li><a href="#patisseries">Pâtisseries</a></li>
+          <li><a href="#galerie">Galerie</a></li>
+          <li><a href="#commander">Commander</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </div>
+
+      <div class="footer-col">
+        <h4>Informations</h4>
+        <ul>
+          <li><span id="footerPhone">06 65 26 52 90</span></li>
+          <li><a id="footerEmail" href="mailto:latelierdenono70@gmail.com">latelierdenono70@gmail.com</a></li>
+          <li><a href="mentions-legales.html">Mentions légales</a></li>
+          <li><a href="politique-confidentialite.html">Politique de confidentialité</a></li>
+          <li><a href="#" id="cookieSettingsLink">Gestion des cookies</a></li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="footer-bottom">
+      <span>© 2026 L'atelier de Nono — Tous droits réservés</span>
+      <div class="footer-bottom-links">
+        <a href="mentions-legales.html">Mentions légales</a>
+        <a href="politique-confidentialite.html">Confidentialité</a>
+      </div>
+    </div>
+  </div>
+</footer>
+
+<!-- ============================================================
+     BOUTONS FLOTTANTS MOBILE
+============================================================ -->
+<div class="mobile-action-bar">
+  <a href="tel:+33665265290" class="call-btn" id="mobileCallBtn">
+    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M22 16.9v3a2 2 0 0 1-2.2 2 19.8 19.8 0 0 1-8.6-3.1 19.5 19.5 0 0 1-6-6A19.8 19.8 0 0 1 2.1 4.2 2 2 0 0 1 4.1 2h3a2 2 0 0 1 2 1.7c.1.9.3 1.8.6 2.7a2 2 0 0 1-.4 2.1L8.1 9.7a16 16 0 0 0 6 6l1.2-1.2a2 2 0 0 1 2.1-.4c.9.3 1.8.5 2.7.6a2 2 0 0 1 1.9 2.2Z"/></svg>
+    Appeler
+  </a>
+  <a href="#commander" class="order-btn">🍰 Commander</a>
+</div>
+
+<!-- Cookie banner -->
+<div class="cookie-banner" id="cookieBanner">
+  <p>Ce site utilise des cookies essentiels au bon fonctionnement du formulaire, ainsi que des cookies de mesure d'audience facultatifs. Vous pouvez accepter ou refuser ces derniers. En savoir plus dans notre <a href="politique-confidentialite.html" style="color:#e6cda2;">politique de confidentialité</a>.</p>
+  <div class="cookie-actions">
+    <button class="btn btn-primary" id="cookieAccept" style="background:#c9a063;">Accepter</button>
+    <button class="btn btn-outline" id="cookieDecline" style="border-color:rgba(253,247,238,0.4);color:#fdf7ee;">Refuser</button>
+  </div>
+</div>
+
+<button class="back-to-top" id="backToTop" aria-label="Retour en haut">
+  <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 19V5M5 12l7-7 7 7"/></svg>
+</button>
+
+<script src="assets/js/config.js"></script>
+<script src="assets/js/main.js"></script>
+</body>
+</html>

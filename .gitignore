@@ -1,0 +1,10 @@
+# Dépendances et environnement du backend
+server/node_modules/
+server/.env
+server/uploads/
+server/data/submissions/
+*.log
+
+# Fichiers système
+.DS_Store
+Thumbs.db
