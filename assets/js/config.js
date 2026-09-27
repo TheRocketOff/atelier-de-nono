@@ -48,10 +48,9 @@ window.NONO_CONFIG = {
   },
 
   // --- Formulaire de commande --------------------------------------------
-  // URL de l'API qui traite les demandes de devis (voir dossier /server).
-  // En local avec le serveur fourni : http://localhost:4000/api/commande
-  // En production : l'URL de votre backend déployé, ex. https://api.latelierdenono.fr/api/commande
-  orderApiUrl: "http://localhost:4000/api/commande",
+  // URL de l'API qui traite les demandes de devis (backend déployé sur Render).
+  // Pour retester en local, remplacez temporairement par http://localhost:4000/api/commande
+  orderApiUrl: "https://atelier-de-nono.onrender.com/api/commande",
 
   // --- SEO local (À REMPLACER) --------------------------------------------
   seo: {
