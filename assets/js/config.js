@@ -29,8 +29,7 @@ window.NONO_CONFIG = {
     postalCode: "70000",
     department: "Haute-Saône",
   },
-  deliveryZone: "Zone de livraison à préciser (ex. : 20 km autour de Vesoul)",
-  pickupZone: "Retrait des commandes à préciser (atelier, marché, point relais...)",
+  deliveryZone: "20 km autour de Vesoul",
 
   // --- Horaires (À REMPLACER) -------------------------------------------
   openingHours: [
@@ -42,9 +41,9 @@ window.NONO_CONFIG = {
 
   // --- Réseaux sociaux ------------------------------------------------------
   social: {
-    instagram: "https://www.instagram.com/latelier_de_nono/",
+    instagram: "https://www.instagram.com/latelier_de__nono?stkn=MW91djZzbDNxb2J4cQ%3D%3D",
     facebook: "https://www.facebook.com/profile.php?id=61594515713891&locale=fr_FR",
-    tiktok: "https://www.tiktok.com/@latelierdenono", // TODO: pas encore fourni — à remplacer si vous avez un compte TikTok
+    tiktok: null, // pas encore de compte TikTok — la carte affiche "Prochainement"
   },
 
   // --- Formulaire de commande --------------------------------------------

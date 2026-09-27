@@ -34,8 +34,6 @@
     }
     const delivery = document.getElementById("contactDelivery");
     if (delivery) delivery.textContent = `Livraison : ${CFG.deliveryZone || ""}`;
-    const pickup = document.getElementById("contactPickup");
-    if (pickup) pickup.textContent = `Retrait : ${CFG.pickupZone || ""}`;
 
     // Horaires
     const hoursWrap = document.getElementById("contactHours");

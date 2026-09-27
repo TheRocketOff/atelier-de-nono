@@ -502,6 +502,17 @@ section { position: relative; padding: 96px 0; }
 .social-embed { border-radius: var(--radius-sm); overflow: hidden; margin-bottom: 18px; background: var(--cream-deep); min-height: 200px; display: flex; align-items: center; justify-content: center; }
 .social-embed iframe, .social-embed blockquote { width: 100%; border: none; }
 .social-placeholder { padding: 30px 14px; color: var(--ink-soft); font-size: 0.82rem; }
+.social-soon {
+  padding: 46px 14px;
+  margin: 0 0 18px;
+  background: var(--cream-deep);
+  border-radius: var(--radius-sm);
+  color: var(--caramel);
+  font-family: var(--font-display);
+  font-style: italic;
+  font-size: 1.15rem;
+  text-align: center;
+}
 
 @media (max-width: 900px) { .social-grid { grid-template-columns: 1fr; } }
 
@@ -570,8 +581,8 @@ section { position: relative; padding: 96px 0; }
 .contact-card a.phone-link { font-size: 1.1rem; font-weight: 700; color: var(--choco); }
 .contact-map { border-radius: var(--radius-lg); overflow: hidden; box-shadow: var(--shadow-soft); min-height: 320px; }
 .contact-map iframe { width: 100%; height: 100%; min-height: 320px; border: none; }
-.contact-hours-list { display: flex; flex-direction: column; gap: 6px; }
-.contact-hours-list div { display: flex; justify-content: space-between; font-size: 0.9rem; color: var(--ink-soft); }
+.contact-hours-list { display: flex; flex-direction: column; gap: 14px; }
+.contact-hours-list div { display: flex; justify-content: space-between; gap: 24px; font-size: 0.9rem; color: var(--ink-soft); }
 .contact-hours-list strong { color: var(--choco-soft); font-weight: 600; }
 
 @media (max-width: 900px) { .contact-inner { grid-template-columns: 1fr; } }

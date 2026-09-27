@@ -65,18 +65,19 @@ L'atelier de Nono/
    | `assets/images/pastries/biscuits.jpg` | Carte « Biscuits & petites douceurs » | ⬜ à fournir |
    | `assets/images/pastries/evenementiel.jpg` | Carte « Pâtisseries événementielles » | ✅ |
    | `assets/images/pastries/creations-personnalisees.jpg` | Carte « Créations personnalisées » | ✅ |
-   | `assets/images/gallery/*.jpg` | Galerie (7 photos, filtrables) | ✅ |
+   | `assets/images/gallery/*.jpg` | Galerie (10 photos, filtrables) | ✅ |
 
-4. **Catégories de pâtisseries** (noms, descriptions, prix « exemple ») →
-   toujours à relire/ajuster dans `index.html`, section `id="patisseries"`.
-5. **Avis clients** — toujours des exemples marqués « Exemple » à l'écran,
-   section `id="avis"`, à remplacer par de vrais retours clients.
-6. **Mentions légales / politique de confidentialité** — modèles à compléter
-   avec vos vraies informations juridiques (SIRET, hébergeur, etc.), champs
-   `[à compléter]` dans `mentions-legales.html` / `politique-confidentialite.html`.
-7. **Envoi e-mail / SMS réel** — voir la section *Lancer le backend*
-   ci-dessous : il manque encore le mot de passe d'application Gmail (ou une
-   clé Resend) pour que les demandes soient réellement envoyées.
+4. **Catégories de pâtisseries** — tarifs réels renseignés ; textes/photos
+   « Cupcakes » et « Biscuits » restent à finaliser dans `index.html`,
+   section `id="patisseries"`.
+5. **Avis clients** — 3 avis d'exemple affichés sans étiquette « Exemple »
+   (avec prénoms réalistes mais textes fictifs) ; à remplacer par de vrais
+   retours clients dès que possible, section `id="avis"`.
+6. **Mentions légales** — SIRET et forme juridique de L'atelier de Nono
+   toujours à ajouter (`mentions-legales.html`, section Propriété
+   intellectuelle / à créer une section identité de l'entreprise si besoin).
+7. **Envoi e-mail réel** — déjà opérationnel en production via Resend
+   (voir ci-dessous). SMS non activé (abandonné au profit de l'e-mail seul).
 
 ## ▶️ Prévisualiser le site (frontend seul)
 
